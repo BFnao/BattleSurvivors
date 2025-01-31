@@ -19,7 +19,7 @@ MonoBehaviour:
     Name: "\u30CA\u30A4\u30C8"
     Description: 
     Attack: 30
-    Defense: 1000
+    Defense: 10
     HP: 350
     MaxHP: 350
     XP: 0
