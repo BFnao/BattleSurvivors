@@ -20,18 +20,7 @@ public class ArrowController : BaseWeapon
 
     // Update is called once per frame
     void Update()
-    {
-        //// ターゲットがいない
-        //if (!Target)
-        //{
-        //    Destroy(gameObject);
-        //    return;
-        //}
-
-        //// 移動
-        //Vector2 forward = Target.transform.position - transform.position;
-        //rigidbody2d.position += forward.normalized * stats.MoveSpeed * Time.deltaTime;
-        // ターゲットがいない場合、矢を破壊
+    {    
         if (Target == null)
         {
             Destroy(gameObject);
