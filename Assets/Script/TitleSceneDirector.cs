@@ -70,7 +70,11 @@ public class TitleSceneDirector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // Escape キーを押したらゲームを強制終了
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
     }
 
     // Startボタン
@@ -95,5 +99,16 @@ public class TitleSceneDirector : MonoBehaviour
         buttonPlayers[0].Select();
 
         SoundController.Instance.PlaySE(0);
+    }
+
+    void QuitGame()
+    {
+        Debug.Log("ゲームを終了します。");
+        Application.Quit();
+
+        // エディタでの動作確認用
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }

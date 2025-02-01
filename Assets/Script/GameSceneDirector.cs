@@ -148,6 +148,12 @@ public class GameSceneDirector : MonoBehaviour
         {
             DispPanelGameOver();
         }
+
+        // Escape キーを押したらゲームを強制終了
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
     }
 
     // ダメージ表示
@@ -395,5 +401,16 @@ public class GameSceneDirector : MonoBehaviour
         panelGameOver.DispPanel(Player.WeaponSpawners);
         // ゲーム中断
         setEnabled(false);
+    }
+
+    void QuitGame()
+    {
+        Debug.Log("ゲームを終了します。");
+        Application.Quit();
+
+        // エディタでの動作確認用
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }
