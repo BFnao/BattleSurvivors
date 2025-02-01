@@ -29,6 +29,7 @@ public class EnemySpawnData
     public int SpawnCountMax;
     // 生成する敵ID
     public List<int> EnemyIds;
+    public int SpawnPerPoint = 1; // 1か所にスポーンする数を指定（デフォルト1）
 }
 
 // 敵生成
@@ -105,27 +106,45 @@ public class EnemySpawnerController : MonoBehaviour
     // 通常生成
     void spawnNormal()
     {
-        // プレイヤー位置
+        //// プレイヤー位置
+        //Vector3 center = sceneDirector.Player.transform.position;
+
+        //// 敵生成
+        //for (int i = 0; i < enemySpawnData.SpawnCountMax; i++)
+        //{
+        //    // プレイヤーの周りから出現させる
+        //    float angle = 360 / enemySpawnData.SpawnCountMax * i;
+        //    // Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //    float x = Mathf.Cos(angle * Mathf.Deg2Rad) * SpawnRadius;
+        //    // Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //    float y = Mathf.Sin(angle * Mathf.Deg2Rad) * SpawnRadius;
+
+        //    // 生成位置
+        //    Vector2 pos = center + new Vector3(x, y, 0);
+
+        //    // 当たり判定のあるタイル上なら生成しない
+        //    if (Utils.IsColliderTile(tilemapCollider, pos)) continue;
+
+        //    // 生成
+        //    createRandomEnemy(pos);
+        //}
         Vector3 center = sceneDirector.Player.transform.position;
 
-        // 敵生成
         for (int i = 0; i < enemySpawnData.SpawnCountMax; i++)
         {
-            // プレイヤーの周りから出現させる
             float angle = 360 / enemySpawnData.SpawnCountMax * i;
-            // Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
             float x = Mathf.Cos(angle * Mathf.Deg2Rad) * SpawnRadius;
-            // Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
             float y = Mathf.Sin(angle * Mathf.Deg2Rad) * SpawnRadius;
+            Vector3 pos = center + new Vector3(x, y, 0);
 
-            // 生成位置
-            Vector2 pos = center + new Vector3(x, y, 0);
-
-            // 当たり判定のあるタイル上なら生成しない
             if (Utils.IsColliderTile(tilemapCollider, pos)) continue;
 
-            // 生成
-            createRandomEnemy(pos);
+            for (int j = 0; j < enemySpawnData.SpawnPerPoint; j++)
+            {
+                Vector2 randomOffset = Random.insideUnitCircle * 0.5f; // Vector2
+                Vector3 spawnPos = new Vector3(pos.x + randomOffset.x, pos.y + randomOffset.y, 0); // Vector3 に変換
+                createRandomEnemy(spawnPos);
+            }
         }
     }
 
@@ -144,38 +163,62 @@ public class EnemySpawnerController : MonoBehaviour
     // グループで生成
     void spawnGroup()
     {
-        // プレイヤー位置
+        //// プレイヤー位置
+        //Vector3 center = sceneDirector.Player.transform.position;
+
+        //// プレイヤーの周りから出現させる
+        //float angle = Random.Range(0, 360);
+        //// Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //float x = Mathf.Cos(angle * Mathf.Deg2Rad) * SpawnRadius;
+        //// Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //float y = Mathf.Sin(angle * Mathf.Deg2Rad) * SpawnRadius;
+
+        //// 生成位置
+        //center += new Vector3(x, y, 0);
+        //float radius = 0.5f;
+
+        //// 敵生成
+        //for (int i = 0; i < enemySpawnData.SpawnCountMax; i++)
+        //{
+        //    // プレイヤーの周りから出現させる
+        //    angle = 360 / enemySpawnData.SpawnCountMax * i;
+        //    // Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //    x = Mathf.Cos(angle * Mathf.Deg2Rad) * radius;
+        //    // Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
+        //    y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius;
+
+        //    // 生成位置
+        //    Vector2 pos = center + new Vector3(x, y, 0);
+
+        //    // 当たり判定のあるタイル上なら生成しない
+        //    if (Utils.IsColliderTile(tilemapCollider, pos)) continue;
+
+        //    // 生成
+        //    createRandomEnemy(pos);
+        //}
         Vector3 center = sceneDirector.Player.transform.position;
 
-        // プレイヤーの周りから出現させる
         float angle = Random.Range(0, 360);
-        // Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
         float x = Mathf.Cos(angle * Mathf.Deg2Rad) * SpawnRadius;
-        // Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
         float y = Mathf.Sin(angle * Mathf.Deg2Rad) * SpawnRadius;
-
-        // 生成位置
         center += new Vector3(x, y, 0);
         float radius = 0.5f;
 
-        // 敵生成
         for (int i = 0; i < enemySpawnData.SpawnCountMax; i++)
         {
-            // プレイヤーの周りから出現させる
             angle = 360 / enemySpawnData.SpawnCountMax * i;
-            // Cos関数にラジアン角を指定すると、xの座標を返してくれる、radiusをかけてワールド座標に変換する
             x = Mathf.Cos(angle * Mathf.Deg2Rad) * radius;
-            // Sin関数にラジアン角を指定すると、yの座標を返してくれる、radiusをかけてワールド座標に変換する
             y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius;
+            Vector3 pos = center + new Vector3(x, y, 0);
 
-            // 生成位置
-            Vector2 pos = center + new Vector3(x, y, 0);
-
-            // 当たり判定のあるタイル上なら生成しない
             if (Utils.IsColliderTile(tilemapCollider, pos)) continue;
 
-            // 生成
-            createRandomEnemy(pos);
+            for (int j = 0; j < enemySpawnData.SpawnPerPoint; j++)
+            {
+                Vector2 randomOffset = Random.insideUnitCircle * 0.5f;
+                Vector3 spawnPos = new Vector3(pos.x + randomOffset.x, pos.y + randomOffset.y, 0);
+                createRandomEnemy(spawnPos);
+            }
         }
     }
 

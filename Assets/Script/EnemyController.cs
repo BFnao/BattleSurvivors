@@ -188,4 +188,5 @@ public class EnemyController : MonoBehaviour
         // 計算後のダメージを返す
         return damage;
     }
+
 }
