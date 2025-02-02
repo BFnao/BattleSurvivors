@@ -14,12 +14,12 @@ public class RotatingSwordSpawnerController : BaseWeaponSpawner
         // 1つでも残っていたら終了
         if (0 < weapons.Count) return;
 
-        // 全部無くなったらタイマー消化
-        if (isSpawnTimerNotElapsed()) return;
+        //// 全部無くなったらタイマー消化
+        //if (isSpawnTimerNotElapsed()) return;
         // 武器生成
         for (int i = 0; i < Stats.SpawnCount; i++)
         {
-            RoraringSwordController ctrl = (RoraringSwordController)createWeapon(transform.position, transform);
+            RotatingSwordController ctrl = (RotatingSwordController)createWeapon(transform.position, transform);
 
             // 初期角度
             ctrl.Angle = 360f / Stats.SpawnCount * i;

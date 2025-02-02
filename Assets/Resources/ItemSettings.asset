@@ -145,12 +145,12 @@ MonoBehaviour:
   - Title: "\u30CF\u30FC\u30C8"
     Id: 13
     Name: "\u30CF\u30FC\u30C8"
-    Description: "HP\u5168\u56DE\u5FA9"
+    Description: "HP400\u56DE\u5FA9"
     Icon: {fileID: -536373198, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
     Bonuses:
     - Type: 0
       Key: 3
-      Value: 350
+      Value: 400
   - Title: "\u30AA\u30FC\u30D6"
     Id: 14
     Name: "\u30AA\u30FC\u30D6"

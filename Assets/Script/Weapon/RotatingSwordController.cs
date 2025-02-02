@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoraringSwordController: BaseWeapon
+public class RotatingSwordController: BaseWeapon
 {
     // ƒvƒŒƒCƒ„[‚©‚ç‚Ì‹——£
     const float Radius = 2f;

@@ -90,7 +90,7 @@ MonoBehaviour:
     PrefabSpawner: {fileID: 6146300170203817673, guid: ceade3b61d7b14933a9c1d4db8f50b19, type: 3}
     Icon: {fileID: 1904217932, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
     LevelUpItemId: 1
-    SpawnCount: 10
+    SpawnCount: 12
     SpawnTimerMin: 3
     SpawnTimerMax: 3
   - Title: "\u30D6\u30FC\u30E1\u30E9\u30F3\u30BD\u30FC\u30C9"
@@ -204,15 +204,15 @@ MonoBehaviour:
     MaxHP: 0
     XP: 0
     MaxXP: 0
-    MoveSpeed: 50
+    MoveSpeed: 70
     PickUpRange: 0
-    AliveTime: -1
+    AliveTime: 3
     PrefabSpawner: {fileID: 2400694994391869903, guid: b812e0b5a53f251409be891cf3ea37a6, type: 3}
     Icon: {fileID: 21300000, guid: 3a5d421acb0cd114c867d19d41a4afc6, type: 3}
     LevelUpItemId: 1
     SpawnCount: 2
-    SpawnTimerMin: 2
-    SpawnTimerMax: 2
+    SpawnTimerMin: 0.5
+    SpawnTimerMax: 0.5
   - Title: "\u30D5\u30A1\u30A4\u30A2"
     Id: 10
     Lv: 1
@@ -220,16 +220,36 @@ MonoBehaviour:
     Description: "3\u65B9\u5411\u306B\u5E83\u304C\u308B\u706B\u306E\u7389"
     Attack: 10
     Defense: 0
-    HP: 0
+    HP: -1
     MaxHP: 0
     XP: 0
     MaxXP: 0
     MoveSpeed: 5.5
     PickUpRange: 0
-    AliveTime: 3
+    AliveTime: -1
     PrefabSpawner: {fileID: 7448592287258157606, guid: b393c15691f20684dbff21442eb679f3, type: 3}
     Icon: {fileID: 21300000, guid: df90be9e0fe61f84685700c85a243f7b, type: 3}
     LevelUpItemId: 1
     SpawnCount: 3
     SpawnTimerMin: 3
     SpawnTimerMax: 3
+  - Title: "\u30ED\u30B1\u30C3\u30C8"
+    Id: 11
+    Lv: 1
+    Name: "\u30ED\u30B1\u30C3\u30C8"
+    Description: "3\u65B9\u5411\u306B\u5E83\u304C\u308B\u706B\u306E\u7389"
+    Attack: 55
+    Defense: 0
+    HP: 0
+    MaxHP: 0
+    XP: 0
+    MaxXP: 0
+    MoveSpeed: 3
+    PickUpRange: 0
+    AliveTime: 3
+    PrefabSpawner: {fileID: 7855809704036255623, guid: dd40ec541132f2245aa21bc9e207926c, type: 3}
+    Icon: {fileID: 21300000, guid: 7e1339c9a12e31b438cff2b5e39dd797, type: 3}
+    LevelUpItemId: 1
+    SpawnCount: 1
+    SpawnTimerMin: 5
+    SpawnTimerMax: 5
