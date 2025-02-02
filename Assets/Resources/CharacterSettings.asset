@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: CharacterSettings
   m_EditorClassIdentifier: 
   datas:
-  - Title: "\u30CA\u30A4\u30C8"
+  - Title: "\u5263\u306E\u5175\u58EB"
     Id: 0
     Lv: 1
-    Name: "\u30CA\u30A4\u30C8"
+    Name: "\u5263\u306E\u5175\u58EB"
     Description: 
     Attack: 30
     Defense: 5
-    HP: 500
-    MaxHP: 500
+    HP: 700
+    MaxHP: 700
     XP: 0
     MaxXP: 10
     MoveSpeed: 3.5
@@ -32,15 +32,15 @@ MonoBehaviour:
     UsableWeaponIds: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
     UsableWeaponMax: 5
     MoveType: 0
-  - Title: "\u30A2\u30FC\u30C1\u30E3\u30FC"
+  - Title: "\u5F13\u306E\u5175\u58EB"
     Id: 1
     Lv: 1
-    Name: "\u30A2\u30FC\u30C1\u30E3\u30FC"
+    Name: "\u5F13\u306E\u5175\u58EB"
     Description: 
     Attack: 35
     Defense: 5
-    HP: 400
-    MaxHP: 400
+    HP: 550
+    MaxHP: 550
     XP: 0
     MaxXP: 10
     MoveSpeed: 4.5
@@ -108,10 +108,10 @@ MonoBehaviour:
     UsableWeaponIds: 
     UsableWeaponMax: 0
     MoveType: 0
-  - Title: "\u30BE\u30F3\u30D3"
+  - Title: "\u72FC"
     Id: 103
     Lv: 0
-    Name: "\u30BE\u30F3\u30D3"
+    Name: "\u72FC"
     Description: 
     Attack: 40
     Defense: 0
