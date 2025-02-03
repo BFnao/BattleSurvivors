@@ -182,16 +182,16 @@ public class GameSceneDirector : MonoBehaviour
         float xp = Random.Range(enemy.Stats.XP, enemy.Stats.MaxXP);
         if (0 > xp) return;
 
-        // 5未満
+        // 15未満
         GameObject prefab = prefabXP[0];
 
-        // 10以上
-        if (10 <= xp)
+        // 30以上
+        if (30 <= xp)
         {
             prefab = prefabXP[2];
         }
-        // 5以上
-        else if (5 <= xp)
+        // 15以上
+        else if (15 <= xp)
         {
             prefab = prefabXP[1];
         }

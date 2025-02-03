@@ -58,8 +58,8 @@ MonoBehaviour:
     Description: 
     Attack: 5
     Defense: 0
-    HP: 20
-    MaxHP: 20
+    HP: 15
+    MaxHP: 15
     XP: 0.1
     MaxXP: 0.5
     MoveSpeed: 0.5
@@ -77,10 +77,10 @@ MonoBehaviour:
     Description: 
     Attack: 10
     Defense: 0
-    HP: 30
+    HP: 45
     MaxHP: 0
-    XP: 0.5
-    MaxXP: 1
+    XP: 0.3
+    MaxXP: 5
     MoveSpeed: 0.25
     PickUpRange: 0
     AliveTime: 0
@@ -96,10 +96,10 @@ MonoBehaviour:
     Description: 
     Attack: 30
     Defense: 0
-    HP: 50
+    HP: 75
     MaxHP: 0
-    XP: 1
-    MaxXP: 2
+    XP: 4.3
+    MaxXP: 10
     MoveSpeed: 0.4
     PickUpRange: 0
     AliveTime: 0
@@ -108,17 +108,17 @@ MonoBehaviour:
     UsableWeaponIds: 
     UsableWeaponMax: 0
     MoveType: 0
-  - Title: "\u72FC"
+  - Title: "\u30B4\u30FC\u30B9\u30C8"
     Id: 103
     Lv: 0
-    Name: "\u72FC"
+    Name: "\u30B4\u30FC\u30B9\u30C8"
     Description: 
     Attack: 40
     Defense: 0
-    HP: 220
+    HP: 250
     MaxHP: 0
-    XP: 1.5
-    MaxXP: 2
+    XP: 5
+    MaxXP: 20
     MoveSpeed: 1
     PickUpRange: 0
     AliveTime: 0
@@ -134,10 +134,10 @@ MonoBehaviour:
     Description: 
     Attack: 45
     Defense: 0
-    HP: 200
+    HP: 230
     MaxHP: 0
-    XP: 2
-    MaxXP: 3
+    XP: 10
+    MaxXP: 10
     MoveSpeed: 0.8
     PickUpRange: 0
     AliveTime: 0
@@ -153,10 +153,10 @@ MonoBehaviour:
     Description: 
     Attack: 45
     Defense: 0
-    HP: 350
+    HP: 400
     MaxHP: 0
-    XP: 3
-    MaxXP: 6
+    XP: 20
+    MaxXP: 20
     MoveSpeed: 3
     PickUpRange: 0
     AliveTime: 0
@@ -174,8 +174,8 @@ MonoBehaviour:
     Defense: 0
     HP: 10000
     MaxHP: 0
-    XP: 0
-    MaxXP: 0
+    XP: 1
+    MaxXP: 5
     MoveSpeed: 5
     PickUpRange: 0
     AliveTime: 10
@@ -210,7 +210,7 @@ MonoBehaviour:
     Description: 
     Attack: 20
     Defense: 0
-    HP: 3
+    HP: 20
     MaxHP: 0
     XP: 0.1
     MaxXP: 0.5
@@ -229,10 +229,10 @@ MonoBehaviour:
     Description: 
     Attack: 15
     Defense: 0
-    HP: 300
+    HP: 7000
     MaxHP: 0
-    XP: 5
-    MaxXP: 10
+    XP: 15
+    MaxXP: 20
     MoveSpeed: 0.3
     PickUpRange: 0
     AliveTime: 90
@@ -248,9 +248,9 @@ MonoBehaviour:
     Description: 
     Attack: 50
     Defense: 0
-    HP: 13000
+    HP: 20000
     MaxHP: 0
-    XP: 20
+    XP: 30
     MaxXP: 30
     MoveSpeed: 0.35
     PickUpRange: 0
@@ -305,10 +305,10 @@ MonoBehaviour:
     Description: 
     Attack: 60
     Defense: 0
-    HP: 30000
+    HP: 70000
     MaxHP: 0
-    XP: 20
-    MaxXP: 30
+    XP: 1000
+    MaxXP: 100000
     MoveSpeed: 1
     PickUpRange: 0
     AliveTime: -1

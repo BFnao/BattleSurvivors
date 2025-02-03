@@ -21441,10 +21441,10 @@ MonoBehaviour:
     ElapsedSeconds: 0
     SpawnType: 0
     SpawnDuration: 9999
-    SpawnCountMax: 200
+    SpawnCountMax: 300
     EnemyIds: c9000000
     SpawnPerPoint: 1
-  - Title: "2:30 \u30BE\u30F3\u30D3"
+  - Title: "2:30 \u30B4\u30FC\u30B9\u30C8"
     ElapsedMinutes: 2
     ElapsedSeconds: 30
     SpawnType: 0
@@ -21452,7 +21452,7 @@ MonoBehaviour:
     SpawnCountMax: 15
     EnemyIds: 67000000
     SpawnPerPoint: 1
-  - Title: "3:00 \u30B9\u30B1\u30EB\u30C8\u30F3\u30D5\u30A1\u30A4\u30BF\u30FC"
+  - Title: "3:00 \u30B9\u30B1\u30EB\u30C8\u30F3"
     ElapsedMinutes: 3
     ElapsedSeconds: 0
     SpawnType: 0
@@ -21499,7 +21499,7 @@ MonoBehaviour:
     SpawnDuration: 9999
     SpawnCountMax: 100
     EnemyIds: c9000000
-    SpawnPerPoint: 1
+    SpawnPerPoint: 2
   - Title: "4:00 \u30B3\u30A6\u30E2\u30EA\u5927\u7FA4"
     ElapsedMinutes: 4
     ElapsedSeconds: 0
@@ -21513,7 +21513,7 @@ MonoBehaviour:
     ElapsedSeconds: 0
     SpawnType: 0
     SpawnDuration: 10
-    SpawnCountMax: 30
+    SpawnCountMax: 20
     EnemyIds: 66000000670000006800000069000000
     SpawnPerPoint: 1
   - Title: "4:30 \u5186\u5468\u30DC\u30B9 30\u79D2"
@@ -21524,11 +21524,11 @@ MonoBehaviour:
     SpawnCountMax: 5
     EnemyIds: c9000000f4010000
     SpawnPerPoint: 1
-  - Title: "5:00 \u3044\u3063\u3071\u3044\u6CB8\u304F 10\u79D2"
+  - Title: "5:00 \u3044\u3063\u3071\u3044\u6CB8\u304F 20\u79D2"
     ElapsedMinutes: 5
     ElapsedSeconds: 0
     SpawnType: 0
-    SpawnDuration: 10
+    SpawnDuration: 20
     SpawnCountMax: 70
     EnemyIds: 640000006500000066000000670000006800000069000000
     SpawnPerPoint: 1
@@ -21553,22 +21553,22 @@ MonoBehaviour:
     ElapsedSeconds: 0
     SpawnType: 0
     SpawnDuration: 10
-    SpawnCountMax: 100
-    EnemyIds: c9000000670000006800000069000000
-    SpawnPerPoint: 1
+    SpawnCountMax: 200
+    EnemyIds: c90000006700000068000000
+    SpawnPerPoint: 2
   - Title: "6:00 \u6B7B\u795E"
     ElapsedMinutes: 6
     ElapsedSeconds: 0
     SpawnType: 0
     SpawnDuration: 10
     SpawnCountMax: 5
-    EnemyIds: 6b000000
+    EnemyIds: 690000006b000000
     SpawnPerPoint: 1
   - Title: "6:00 \u30D5\u30A1\u30A4\u30E4\u30FC\u30DC\u30FC\u30EB"
     ElapsedMinutes: 6
     ElapsedSeconds: 0
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 10
     SpawnCountMax: 10
     EnemyIds: 6a000000
     SpawnPerPoint: 3
@@ -21595,7 +21595,7 @@ MonoBehaviour:
     SpawnDuration: 5
     SpawnCountMax: 10
     EnemyIds: 6a000000
-    SpawnPerPoint: 3
+    SpawnPerPoint: 1
   - Title: "6:30 \u30B3\u30A6\u30E2\u30EA\u30D1\u30E9\u30C0\u30A4\u30B9"
     ElapsedMinutes: 6
     ElapsedSeconds: 30
@@ -21619,13 +21619,13 @@ MonoBehaviour:
     SpawnDuration: 5
     SpawnCountMax: 10
     EnemyIds: 6a000000
-    SpawnPerPoint: 3
+    SpawnPerPoint: 1
   - Title: "6:45 \u3053\u308C\u307E\u3067\u306E\u6575"
     ElapsedMinutes: 6
     ElapsedSeconds: 45
     SpawnType: 0
     SpawnDuration: 10
-    SpawnCountMax: 70
+    SpawnCountMax: 60
     EnemyIds: 6500000066000000670000006800000069000000
     SpawnPerPoint: 1
   - Title: "7:00 \u30E9\u30B9\u30DC\u30B9\u653B\u6483"
@@ -21689,7 +21689,7 @@ MonoBehaviour:
     ElapsedSeconds: 0
     SpawnType: 0
     SpawnDuration: 8
-    SpawnCountMax: 250
+    SpawnCountMax: 80
     EnemyIds: 640000006500000066000000670000006800000069000000
     SpawnPerPoint: 1
   - Title: "12:30 \u30E9\u30B9\u30DC\u30B9\u767B\u5834"
@@ -21704,7 +21704,7 @@ MonoBehaviour:
     ElapsedMinutes: 12
     ElapsedSeconds: 30
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 10
     SpawnCountMax: 10
     EnemyIds: 6b000000
     SpawnPerPoint: 2
@@ -21732,11 +21732,11 @@ MonoBehaviour:
     SpawnCountMax: 70
     EnemyIds: f5010000
     SpawnPerPoint: 1
-  - Title: "13:00 \u30F4\u30A1\u30F3\u30D1\u30A4\u30A2\u30FB\u30BE\u30F3\u30D3\u30FB\u30B9\u30B1\u30EB\u30C8\u30F3"
+  - Title: "13:00 \u30F4\u30A1\u30F3\u30D1\u30A4\u30A2\u30FB\u30B4\u30FC\u30B9\u30C8\u30FB\u30B9\u30B1\u30EB\u30C8\u30F3"
     ElapsedMinutes: 13
     ElapsedSeconds: 0
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 20
     SpawnCountMax: 100
     EnemyIds: 670000006800000069000000
     SpawnPerPoint: 1
@@ -21768,7 +21768,7 @@ MonoBehaviour:
     ElapsedMinutes: 14
     ElapsedSeconds: 0
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 15
     SpawnCountMax: 100
     EnemyIds: 6800000069000000f6010000
     SpawnPerPoint: 1
@@ -21784,7 +21784,7 @@ MonoBehaviour:
     ElapsedMinutes: 14
     ElapsedSeconds: 30
     SpawnType: 1
-    SpawnDuration: 2
+    SpawnDuration: 3
     SpawnCountMax: 70
     EnemyIds: f5010000
     SpawnPerPoint: 1
@@ -21800,7 +21800,7 @@ MonoBehaviour:
     ElapsedMinutes: 14
     ElapsedSeconds: 30
     SpawnType: 0
-    SpawnDuration: 5
+    SpawnDuration: 10
     SpawnCountMax: 100
     EnemyIds: 6800000069000000f6010000
     SpawnPerPoint: 1
