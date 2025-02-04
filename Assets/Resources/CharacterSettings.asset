@@ -195,7 +195,7 @@ MonoBehaviour:
     MaxHP: 0
     XP: 20
     MaxXP: 30
-    MoveSpeed: 1
+    MoveSpeed: 2
     PickUpRange: 0
     AliveTime: 180
     Prefab: {fileID: 7977534811802228601, guid: 8865bf650733b35488a8f14a0e145f87, type: 3}
@@ -229,7 +229,7 @@ MonoBehaviour:
     Description: 
     Attack: 15
     Defense: 0
-    HP: 7000
+    HP: 5000
     MaxHP: 0
     XP: 15
     MaxXP: 20
@@ -248,19 +248,19 @@ MonoBehaviour:
     Description: 
     Attack: 50
     Defense: 0
-    HP: 20000
+    HP: 10000
     MaxHP: 0
-    XP: 30
-    MaxXP: 30
+    XP: 100
+    MaxXP: 100
     MoveSpeed: 0.35
     PickUpRange: 0
-    AliveTime: -1
+    AliveTime: 150
     Prefab: {fileID: 1535923970922213420, guid: 54a2bb63064c8476ebc1e425c9b697ed, type: 3}
     DefaultWeaponIds: 
     UsableWeaponIds: 
     UsableWeaponMax: 0
     MoveType: 0
-  - Title: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483"
+  - Title: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483A"
     Id: 501
     Lv: 1
     Name: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483"
@@ -269,8 +269,8 @@ MonoBehaviour:
     Defense: 0
     HP: 1500
     MaxHP: 0
-    XP: 20
-    MaxXP: 30
+    XP: 70
+    MaxXP: 70
     MoveSpeed: 7
     PickUpRange: 0
     AliveTime: 20
@@ -279,17 +279,17 @@ MonoBehaviour:
     UsableWeaponIds: 
     UsableWeaponMax: 0
     MoveType: 1
-  - Title: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483"
+  - Title: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483B"
     Id: 502
     Lv: 1
     Name: "\u30E9\u30B9\u30DC\u30B9\u306E\u653B\u6483"
     Description: 
-    Attack: 15
+    Attack: 45
     Defense: 0
     HP: 1500
     MaxHP: 0
-    XP: 20
-    MaxXP: 30
+    XP: 50
+    MaxXP: 50
     MoveSpeed: 3.2
     PickUpRange: 0
     AliveTime: -1
@@ -303,9 +303,9 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30E9\u30B9\u30DC\u30B9"
     Description: 
-    Attack: 60
+    Attack: 1000
     Defense: 0
-    HP: 70000
+    HP: 1e+11
     MaxHP: 0
     XP: 1000
     MaxXP: 100000
@@ -317,3 +317,250 @@ MonoBehaviour:
     UsableWeaponIds: 
     UsableWeaponMax: 0
     MoveType: 0
+  - Title: "\u30B3\u30A6\u30E2\u30EA\u5F37\u5316\u500B\u4F53"
+    Id: 300
+    Lv: 1
+    Name: "\u30B3\u30A6\u30E2\u30EA\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 35
+    Defense: 0
+    HP: 100
+    MaxHP: 0
+    XP: 0.5
+    MaxXP: 0.5
+    MoveSpeed: 0.5
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 8364646844333148725, guid: 3c3f3bcdb03264562bb9a6e81f96bd44, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30B9\u30E9\u30A4\u30E0\u5F37\u5316\u500B\u4F53"
+    Id: 301
+    Lv: 1
+    Name: "\u30B9\u30E9\u30A4\u30E0\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 40
+    Defense: 0
+    HP: 2000
+    MaxHP: 0
+    XP: 5
+    MaxXP: 5
+    MoveSpeed: 0.45
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 5385056339256460273, guid: 68c253d29365b48578439a4994b7cb8d, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30B4\u30D6\u30EA\u30F3\u5F37\u5316\u500B\u4F53"
+    Id: 302
+    Lv: 1
+    Name: "\u30B4\u30D6\u30EA\u30F3\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 40
+    Defense: 0
+    HP: 3500
+    MaxHP: 0
+    XP: 10
+    MaxXP: 10
+    MoveSpeed: 0.65
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 8754068062431871241, guid: 10d42028bcb2645dfaa72dbf258a0ba2, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30B4\u30FC\u30B9\u30C8\u5F37\u5316\u500B\u4F53"
+    Id: 303
+    Lv: 1
+    Name: "\u30B4\u30FC\u30B9\u30C8\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 42
+    Defense: 0
+    HP: 6000
+    MaxHP: 0
+    XP: 20
+    MaxXP: 20
+    MoveSpeed: 1
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 8946408614449864744, guid: 9744fa96693a7466784b3206fefc2cfc, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30B9\u30B1\u30EB\u30C8\u30F3\u5F37\u5316\u500B\u4F53"
+    Id: 304
+    Lv: 1
+    Name: "\u30B9\u30B1\u30EB\u30C8\u30F3\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 40
+    Defense: 0
+    HP: 5000
+    MaxHP: 0
+    XP: 5
+    MaxXP: 30
+    MoveSpeed: 1.5
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 4746439151693003281, guid: 84239550b939442cebe3be41f318779f, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30F4\u30A1\u30F3\u30D1\u30A4\u30A2\u5F37\u5316\u500B\u4F53"
+    Id: 305
+    Lv: 1
+    Name: "\u30F4\u30A1\u30F3\u30D1\u30A4\u30A2\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 75
+    Defense: 0
+    HP: 5000
+    MaxHP: 0
+    XP: 50
+    MaxXP: 50
+    MoveSpeed: 3.3
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 6823880545231261390, guid: d76a48d60f7b64807946d64cb75db96a, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30DC\u30FC\u30EB\u5F37\u5316\u500B\u4F53"
+    Id: 306
+    Lv: 1
+    Name: "\u30D5\u30A1\u30A4\u30E4\u30FC\u30DC\u30FC\u30EB\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 200
+    Defense: 0
+    HP: 100000000
+    MaxHP: 0
+    XP: 20
+    MaxXP: 20
+    MoveSpeed: 5
+    PickUpRange: 0
+    AliveTime: 10
+    Prefab: {fileID: 9048780369863957403, guid: cb9bf10dc076b1c49a8f382cdd7a2392, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 1
+  - Title: "\u6B7B\u795E\u5F37\u5316\u500B\u4F53"
+    Id: 307
+    Lv: 1
+    Name: "\u6B7B\u795E\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 300
+    Defense: 0
+    HP: 5000000
+    MaxHP: 0
+    XP: 75
+    MaxXP: 75
+    MoveSpeed: 2.8
+    PickUpRange: 0
+    AliveTime: 180
+    Prefab: {fileID: 7977534811802228601, guid: 8865bf650733b35488a8f14a0e145f87, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u5927\u7FA4\u30B3\u30A6\u30E2\u30EA\u5F37\u5316\u500B\u4F53"
+    Id: 400
+    Lv: 1
+    Name: "\u5927\u7FA4\u30B3\u30A6\u30E2\u30EA\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 35
+    Defense: 0
+    HP: 500
+    MaxHP: 0
+    XP: 20
+    MaxXP: 30
+    MoveSpeed: 2.5
+    PickUpRange: 0
+    AliveTime: 0
+    Prefab: {fileID: 8364646844333148725, guid: 3c3f3bcdb03264562bb9a6e81f96bd44, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 1
+  - Title: "\u5927\u7FA4\u30B9\u30E9\u30A4\u30E0\u5F37\u5316\u500B\u4F53"
+    Id: 401
+    Lv: 1
+    Name: "\u5927\u7FA4\u30B9\u30E9\u30A4\u30E0\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 35
+    Defense: 0
+    HP: 1000000
+    MaxHP: 0
+    XP: 20
+    MaxXP: 30
+    MoveSpeed: 0.5
+    PickUpRange: 0
+    AliveTime: 90
+    Prefab: {fileID: 5385056339256460273, guid: 68c253d29365b48578439a4994b7cb8d, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30DC\u30B9\u5F37\u5316\u500B\u4F53"
+    Id: 600
+    Lv: 1
+    Name: "\u30DC\u30B9\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 350
+    Defense: 0
+    HP: 1000000
+    MaxHP: 0
+    XP: 200
+    MaxXP: 300
+    MoveSpeed: 0.5
+    PickUpRange: 0
+    AliveTime: 150
+    Prefab: {fileID: 1535923970922213420, guid: 54a2bb63064c8476ebc1e425c9b697ed, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 0
+  - Title: "\u30E9\u30B9\u30DC\u30B9\u653B\u6483A\u5F37\u5316\u500B\u4F53"
+    Id: 601
+    Lv: 1
+    Name: "\u30E9\u30B9\u30DC\u30B9\u653B\u6483A\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 100
+    Defense: 0
+    HP: 10000000
+    MaxHP: 0
+    XP: 30
+    MaxXP: 30
+    MoveSpeed: 7
+    PickUpRange: 0
+    AliveTime: 20
+    Prefab: {fileID: 2186242980731868236, guid: 959ca37f03bd2eb46bbe14e4365dec3b, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 1
+  - Title: "\u30E9\u30B9\u30DC\u30B9\u653B\u6483B\u5F37\u5316\u500B\u4F53"
+    Id: 602
+    Lv: 1
+    Name: "\u30DC\u30B9\u5F37\u5316\u500B\u4F53"
+    Description: 
+    Attack: 65
+    Defense: 0
+    HP: 1000000
+    MaxHP: 0
+    XP: 100
+    MaxXP: 100
+    MoveSpeed: 3.5
+    PickUpRange: 0
+    AliveTime: 60
+    Prefab: {fileID: 2186242980731868236, guid: 959ca37f03bd2eb46bbe14e4365dec3b, type: 3}
+    DefaultWeaponIds: 
+    UsableWeaponIds: 
+    UsableWeaponMax: 0
+    MoveType: 1

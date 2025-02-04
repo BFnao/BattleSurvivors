@@ -58,7 +58,7 @@ MonoBehaviour:
     Lv: 1
     Name: "\u5F13"
     Description: "\u30E9\u30F3\u30C0\u30E0\u306A\u6575\u306B\u5411\u304B\u3063\u3066\u8CAB\u901A\u3059\u308B\u5F13\u3092\u653E\u3064\n\u8CAB\u901A\u6642\u306F30%\u306E\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
-    Attack: 30
+    Attack: 40
     Defense: 0
     HP: -1
     MaxHP: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30CA\u30A4\u30D5"
     Description: "\u9032\u884C\u65B9\u5411\u306B\u30CA\u30A4\u30D5\u3092\u6295\u3052\u308B"
-    Attack: 15
+    Attack: 20
     Defense: 0
     HP: 0
     MaxHP: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
     Description: "\u6575\u3092\u8DF3\u306D\u8FD4\u3059\u30B7\u30FC\u30EB\u30C9"
     Attack: 10
     Defense: 0
-    HP: 35
+    HP: 20
     MaxHP: 0
     XP: 0
     MaxXP: 0
@@ -198,19 +198,19 @@ MonoBehaviour:
     Lv: 1
     Name: "\u56DE\u8EE2\u30BD\u30FC\u30C9"
     Description: "\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u5468\u308A\u3092\u56DE\u8EE2\u3059\u308B\u30BD\u30FC\u30C9"
-    Attack: 35
+    Attack: 30
     Defense: 0
     HP: -1
     MaxHP: 0
     XP: 0
     MaxXP: 0
-    MoveSpeed: 70
+    MoveSpeed: 100
     PickUpRange: 0
     AliveTime: 3
     PrefabSpawner: {fileID: 2400694994391869903, guid: b812e0b5a53f251409be891cf3ea37a6, type: 3}
     Icon: {fileID: 21300000, guid: 3a5d421acb0cd114c867d19d41a4afc6, type: 3}
     LevelUpItemId: 1
-    SpawnCount: 2
+    SpawnCount: 3
     SpawnTimerMin: 0.5
     SpawnTimerMax: 0.5
   - Title: "\u30D5\u30A1\u30A4\u30A2"
@@ -218,7 +218,7 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30D5\u30A1\u30A4\u30A2"
     Description: "3\u65B9\u5411\u306B\u5E83\u304C\u308B\u706B\u306E\u7389"
-    Attack: 10
+    Attack: 20
     Defense: 0
     HP: -1
     MaxHP: 0

@@ -128,25 +128,25 @@ public class PlayerController : MonoBehaviour
         // 再生するアニメーション
         string trigger = "";
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             dir += Vector2.up;
             trigger = "isUp";
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             dir -= Vector2.up;
             trigger = "isDown";
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             dir += Vector2.right;
             trigger = "isRight";
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             dir -= Vector2.right;
             trigger = "isLeft";

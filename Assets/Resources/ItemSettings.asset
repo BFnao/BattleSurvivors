@@ -82,6 +82,15 @@ MonoBehaviour:
   - Title: "\u30A2\u30FC\u30DE\u30FC"
     Id: 6
     Name: "\u30A2\u30FC\u30DE\u30FC"
+    Description: "\u9632\u5FA1\u529B+5%"
+    Icon: {fileID: 330299531, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
+    Bonuses:
+    - Type: 1
+      Key: 1
+      Value: 0.05
+  - Title: "\u30A2\u30FC\u30DE\u30FC"
+    Id: 7
+    Name: "\u30A2\u30FC\u30DE\u30FC"
     Description: "\u9632\u5FA1\u529B+10%"
     Icon: {fileID: -1699141947, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
     Bonuses:
@@ -89,16 +98,16 @@ MonoBehaviour:
       Key: 1
       Value: 0.1
   - Title: "\u30A2\u30FC\u30DE\u30FC"
-    Id: 7
+    Id: 8
     Name: "\u30A2\u30FC\u30DE\u30FC"
-    Description: "\u9632\u5FA1\u529B+20%"
+    Description: "\u9632\u5FA1\u529B+15%"
     Icon: {fileID: -1699141947, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
     Bonuses:
     - Type: 1
       Key: 1
-      Value: 0.2
+      Value: 0.15
   - Title: "\u30B7\u30E5\u30FC\u30BA"
-    Id: 8
+    Id: 9
     Name: "\u30B7\u30E5\u30FC\u30BA"
     Description: "\u30B9\u30D4\u30FC\u30C9+5%"
     Icon: {fileID: 1782651153, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -107,7 +116,7 @@ MonoBehaviour:
       Key: 2
       Value: 0.05
   - Title: "\u30B7\u30E5\u30FC\u30BA"
-    Id: 9
+    Id: 10
     Name: "\u30B7\u30E5\u30FC\u30BA"
     Description: "\u30B9\u30D4\u30FC\u30C9+10%"
     Icon: {fileID: 1782651153, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -116,7 +125,7 @@ MonoBehaviour:
       Key: 2
       Value: 0.1
   - Title: "\u30CF\u30FC\u30C8"
-    Id: 10
+    Id: 11
     Name: "\u30CF\u30FC\u30C8"
     Description: "HP50\u56DE\u5FA9"
     Icon: {fileID: -536373198, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -125,7 +134,7 @@ MonoBehaviour:
       Key: 3
       Value: 50
   - Title: "\u30CF\u30FC\u30C8"
-    Id: 11
+    Id: 12
     Name: "\u30CF\u30FC\u30C8"
     Description: "HP100\u56DE\u5FA9"
     Icon: {fileID: -536373198, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -134,7 +143,7 @@ MonoBehaviour:
       Key: 3
       Value: 100
   - Title: "\u30CF\u30FC\u30C8"
-    Id: 12
+    Id: 13
     Name: "\u30CF\u30FC\u30C8"
     Description: "HP200\u56DE\u5FA9"
     Icon: {fileID: -536373198, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -143,7 +152,7 @@ MonoBehaviour:
       Key: 3
       Value: 200
   - Title: "\u30CF\u30FC\u30C8"
-    Id: 13
+    Id: 14
     Name: "\u30CF\u30FC\u30C8"
     Description: "HP400\u56DE\u5FA9"
     Icon: {fileID: -536373198, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -152,7 +161,7 @@ MonoBehaviour:
       Key: 3
       Value: 400
   - Title: "\u30AA\u30FC\u30D6"
-    Id: 14
+    Id: 15
     Name: "\u30AA\u30FC\u30D6"
     Description: "\u7D4C\u9A13\u5024\u53D6\u5F97\u7BC4\u56F2+0.5"
     Icon: {fileID: 330299531, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -161,7 +170,7 @@ MonoBehaviour:
       Key: 7
       Value: 0.5
   - Title: "\u30AA\u30FC\u30D6"
-    Id: 15
+    Id: 16
     Name: "\u30AA\u30FC\u30D6"
     Description: "\u7D4C\u9A13\u5024\u53D6\u5F97\u7BC4\u56F2+1.0"
     Icon: {fileID: 330299531, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
@@ -169,3 +178,48 @@ MonoBehaviour:
     - Type: 0
       Key: 7
       Value: 1
+  - Title: "\u7D4C\u9A13\u5024"
+    Id: 17
+    Name: "\u7D4C\u9A13\u5024"
+    Description: "\u7D4C\u9A13\u5024+10"
+    Icon: {fileID: 954748728, guid: db776c65ef19c47ad9c6044f0d65debf, type: 3}
+    Bonuses:
+    - Type: 0
+      Key: 5
+      Value: 10
+  - Title: "\u7D4C\u9A13\u5024"
+    Id: 18
+    Name: "\u7D4C\u9A13\u5024"
+    Description: "\u7D4C\u9A13\u5024+30"
+    Icon: {fileID: 954748728, guid: db776c65ef19c47ad9c6044f0d65debf, type: 3}
+    Bonuses:
+    - Type: 0
+      Key: 5
+      Value: 30
+  - Title: "\u7D4C\u9A13\u5024"
+    Id: 19
+    Name: "\u7D4C\u9A13\u5024"
+    Description: "\u7D4C\u9A13\u5024+50"
+    Icon: {fileID: 1272870163, guid: db776c65ef19c47ad9c6044f0d65debf, type: 3}
+    Bonuses:
+    - Type: 0
+      Key: 5
+      Value: 50
+  - Title: "\u7D4C\u9A13\u5024"
+    Id: 20
+    Name: "\u7D4C\u9A13\u5024"
+    Description: "\u7D4C\u9A13\u5024+100"
+    Icon: {fileID: 1272870163, guid: db776c65ef19c47ad9c6044f0d65debf, type: 3}
+    Bonuses:
+    - Type: 0
+      Key: 5
+      Value: 100
+  - Title: "\u7D4C\u9A13\u5024"
+    Id: 21
+    Name: "\u7D4C\u9A13\u5024"
+    Description: "\u7D4C\u9A13\u5024+500"
+    Icon: {fileID: -572657570, guid: db776c65ef19c47ad9c6044f0d65debf, type: 3}
+    Bonuses:
+    - Type: 0
+      Key: 5
+      Value: 500
