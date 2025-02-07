@@ -21496,7 +21496,7 @@ MonoBehaviour:
     ElapsedMinutes: 4
     ElapsedSeconds: 0
     SpawnType: 0
-    SpawnDuration: 9999
+    SpawnDuration: 10
     SpawnCountMax: 100
     EnemyIds: c9000000
     SpawnPerPoint: 1
@@ -39038,7 +39038,7 @@ MonoBehaviour:
   panelLevelUp: {fileID: 172705492}
   panelTreasureChest: {fileID: 1682788836}
   prefabTreasureChest: {fileID: 2815160584621684194, guid: fa8dc66902a7f44408608e810b5f91fe, type: 3}
-  treasureChestItemIds: 060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000
+  treasureChestItemIds: 060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000
   treasureChestTimerMin: 10
   treasureChestTimerMax: 15
   canvas: {fileID: 1522083330}
