@@ -205,3 +205,21 @@ MonoBehaviour:
     - Type: 0
       Key: 3
       Value: -100
+  - Title: "\u30A2\u30FC\u30DE\u30FC"
+    Id: 19
+    Name: "\u30A2\u30FC\u30DE\u30FC"
+    Description: "\u9632\u5FA1\u529B+5%"
+    Icon: {fileID: -1699141947, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
+    Bonuses:
+    - Type: 1
+      Key: 1
+      Value: 0.05
+  - Title: "\u30B7\u30E5\u30FC\u30BA"
+    Id: 20
+    Name: "\u30B7\u30E5\u30FC\u30BA"
+    Description: "\u30B9\u30D4\u30FC\u30C9+5%"
+    Icon: {fileID: 1782651153, guid: fe9d176ce4b73467ab961a542a54e03d, type: 3}
+    Bonuses:
+    - Type: 1
+      Key: 2
+      Value: 0.05

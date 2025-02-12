@@ -28,9 +28,9 @@ MonoBehaviour:
     PickUpRange: 0.5
     AliveTime: 0
     Prefab: {fileID: 4374597268892085943, guid: 8c1eba44a6c9c420393aae25b9bcd46e, type: 3}
-    DefaultWeaponIds: 00000000
-    UsableWeaponIds: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
-    UsableWeaponMax: 5
+    DefaultWeaponIds: 000000000b000000
+    UsableWeaponIds: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+    UsableWeaponMax: 7
     MoveType: 0
   - Title: "\u5F13\u306E\u5175\u58EB"
     Id: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     Prefab: {fileID: 146954174213960401, guid: 79642700892954b0ba0f72a561ca9e54, type: 3}
     DefaultWeaponIds: 02000000
     UsableWeaponIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
-    UsableWeaponMax: 5
+    UsableWeaponMax: 7
     MoveType: 0
   - Title: "\u30B3\u30A6\u30E2\u30EA"
     Id: 100
@@ -60,7 +60,7 @@ MonoBehaviour:
     Defense: 0
     HP: 15
     MaxHP: 15
-    XP: 0.1
+    XP: 0.5
     MaxXP: 0.5
     MoveSpeed: 0.5
     PickUpRange: 0
@@ -79,8 +79,8 @@ MonoBehaviour:
     Defense: 0
     HP: 45
     MaxHP: 0
-    XP: 0.3
-    MaxXP: 5
+    XP: 1
+    MaxXP: 1
     MoveSpeed: 0.25
     PickUpRange: 0
     AliveTime: 0
@@ -98,8 +98,8 @@ MonoBehaviour:
     Defense: 0
     HP: 75
     MaxHP: 0
-    XP: 4.3
-    MaxXP: 10
+    XP: 3.5
+    MaxXP: 3.5
     MoveSpeed: 0.4
     PickUpRange: 0
     AliveTime: 0
@@ -117,8 +117,8 @@ MonoBehaviour:
     Defense: 0
     HP: 250
     MaxHP: 0
-    XP: 5
-    MaxXP: 20
+    XP: 7
+    MaxXP: 7
     MoveSpeed: 1
     PickUpRange: 0
     AliveTime: 0
@@ -155,8 +155,8 @@ MonoBehaviour:
     Defense: 0
     HP: 400
     MaxHP: 0
-    XP: 20
-    MaxXP: 20
+    XP: 30
+    MaxXP: 30
     MoveSpeed: 3
     PickUpRange: 0
     AliveTime: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
     HP: 10000
     MaxHP: 0
     XP: 1
-    MaxXP: 5
+    MaxXP: 1
     MoveSpeed: 5
     PickUpRange: 0
     AliveTime: 10
@@ -193,8 +193,8 @@ MonoBehaviour:
     Defense: 0
     HP: 10000
     MaxHP: 0
-    XP: 20
-    MaxXP: 30
+    XP: 45
+    MaxXP: 45
     MoveSpeed: 2
     PickUpRange: 0
     AliveTime: 180
@@ -212,8 +212,8 @@ MonoBehaviour:
     Defense: 0
     HP: 20
     MaxHP: 0
-    XP: 0.1
-    MaxXP: 0.5
+    XP: 1
+    MaxXP: 1
     MoveSpeed: 5.5
     PickUpRange: 0
     AliveTime: 15
@@ -231,8 +231,8 @@ MonoBehaviour:
     Defense: 0
     HP: 5000
     MaxHP: 0
-    XP: 15
-    MaxXP: 20
+    XP: 30
+    MaxXP: 30
     MoveSpeed: 0.3
     PickUpRange: 0
     AliveTime: 90
@@ -303,11 +303,11 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30E9\u30B9\u30DC\u30B9"
     Description: 
-    Attack: 1000
+    Attack: 500
     Defense: 0
     HP: 1e+11
     MaxHP: 0
-    XP: 1000
+    XP: 100000
     MaxXP: 100000
     MoveSpeed: 1
     PickUpRange: 0
@@ -326,8 +326,8 @@ MonoBehaviour:
     Defense: 0
     HP: 100
     MaxHP: 0
-    XP: 0.5
-    MaxXP: 0.5
+    XP: 15
+    MaxXP: 15
     MoveSpeed: 0.5
     PickUpRange: 0
     AliveTime: 0
@@ -345,8 +345,8 @@ MonoBehaviour:
     Defense: 0
     HP: 2000
     MaxHP: 0
-    XP: 5
-    MaxXP: 5
+    XP: 30
+    MaxXP: 30
     MoveSpeed: 0.45
     PickUpRange: 0
     AliveTime: 0
@@ -364,8 +364,8 @@ MonoBehaviour:
     Defense: 0
     HP: 3500
     MaxHP: 0
-    XP: 10
-    MaxXP: 10
+    XP: 45
+    MaxXP: 45
     MoveSpeed: 0.65
     PickUpRange: 0
     AliveTime: 0
@@ -383,8 +383,8 @@ MonoBehaviour:
     Defense: 0
     HP: 6000
     MaxHP: 0
-    XP: 20
-    MaxXP: 20
+    XP: 50
+    MaxXP: 50
     MoveSpeed: 1
     PickUpRange: 0
     AliveTime: 0
@@ -402,9 +402,9 @@ MonoBehaviour:
     Defense: 0
     HP: 5000
     MaxHP: 0
-    XP: 5
-    MaxXP: 30
-    MoveSpeed: 1.5
+    XP: 60
+    MaxXP: 60
+    MoveSpeed: 1.2
     PickUpRange: 0
     AliveTime: 0
     Prefab: {fileID: 4746439151693003281, guid: 84239550b939442cebe3be41f318779f, type: 3}
@@ -421,8 +421,8 @@ MonoBehaviour:
     Defense: 0
     HP: 5000
     MaxHP: 0
-    XP: 50
-    MaxXP: 50
+    XP: 80
+    MaxXP: 80
     MoveSpeed: 3.3
     PickUpRange: 0
     AliveTime: 0
@@ -440,8 +440,8 @@ MonoBehaviour:
     Defense: 0
     HP: 100000000
     MaxHP: 0
-    XP: 20
-    MaxXP: 20
+    XP: 1
+    MaxXP: 1
     MoveSpeed: 5
     PickUpRange: 0
     AliveTime: 10
@@ -455,12 +455,12 @@ MonoBehaviour:
     Lv: 1
     Name: "\u6B7B\u795E\u5F37\u5316\u500B\u4F53"
     Description: 
-    Attack: 300
+    Attack: 200
     Defense: 0
     HP: 5000000
     MaxHP: 0
-    XP: 75
-    MaxXP: 75
+    XP: 100
+    MaxXP: 100
     MoveSpeed: 2.8
     PickUpRange: 0
     AliveTime: 180
@@ -478,7 +478,7 @@ MonoBehaviour:
     Defense: 0
     HP: 500
     MaxHP: 0
-    XP: 20
+    XP: 30
     MaxXP: 30
     MoveSpeed: 2.5
     PickUpRange: 0
@@ -497,8 +497,8 @@ MonoBehaviour:
     Defense: 0
     HP: 1000000
     MaxHP: 0
-    XP: 20
-    MaxXP: 30
+    XP: 50
+    MaxXP: 50
     MoveSpeed: 0.5
     PickUpRange: 0
     AliveTime: 90
@@ -512,11 +512,11 @@ MonoBehaviour:
     Lv: 1
     Name: "\u30DC\u30B9\u5F37\u5316\u500B\u4F53"
     Description: 
-    Attack: 350
+    Attack: 150
     Defense: 0
     HP: 1000000
     MaxHP: 0
-    XP: 200
+    XP: 300
     MaxXP: 300
     MoveSpeed: 0.5
     PickUpRange: 0
@@ -535,8 +535,8 @@ MonoBehaviour:
     Defense: 0
     HP: 10000000
     MaxHP: 0
-    XP: 30
-    MaxXP: 30
+    XP: 300
+    MaxXP: 300
     MoveSpeed: 7
     PickUpRange: 0
     AliveTime: 20
@@ -554,8 +554,8 @@ MonoBehaviour:
     Defense: 0
     HP: 1000000
     MaxHP: 0
-    XP: 100
-    MaxXP: 100
+    XP: 200
+    MaxXP: 200
     MoveSpeed: 3.5
     PickUpRange: 0
     AliveTime: 60

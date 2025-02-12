@@ -149,10 +149,10 @@ public class GameSceneDirector : MonoBehaviour
             DispPanelGameOver();
         }
 
-        // Escape キーを押したらゲームを強制終了
+        // Escape キーを押したらタイトルシーン
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            QuitGame();
+            SceneManager.LoadScene("TitleScene");
         }
     }
 
